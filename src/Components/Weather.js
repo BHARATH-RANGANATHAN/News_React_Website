@@ -1,10 +1,8 @@
-
 import React, { useEffect, useState } from "react"
 import CloudIcon from '@material-ui/icons/Cloud';
 
 
 function Weather() {
-    console.log(process.env.REACT_APP_WEATHER_API)
     useEffect(() => {
         fetchItems()
     }, [])
@@ -29,4 +27,3 @@ function Weather() {
 }
 
 export default Weather;
-// d3d2d3c5e76a4a6caa5ab8b4a459e661-api key

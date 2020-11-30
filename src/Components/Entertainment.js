@@ -29,4 +29,3 @@ function Entertainment() {
 }
 
 export default Entertainment;
-// d3d2d3c5e76a4a6caa5ab8b4a459e661-api key
