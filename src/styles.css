@@ -1,0 +1,71 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header{
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  padding: 1%;
+  display: flex;
+  justify-content: space-around;
+} 
+.search{
+  text-align: center;
+  padding: 20px;
+}
+.search>input{
+text-align: center;
+background-color: #222831;
+color: white;
+width: 50%;
+padding: 10px;
+}
+.weather{
+    padding-top: 25px;
+}
+
+.Search-icon{
+padding-top: 30px;
+}
+
+.nav-link{
+  color: white;
+}
+
+.cards{
+  max-width: 1600px;
+  margin:0 auto;
+  display: grid;
+  grid-gap:3rem;
+  padding: 3%;
+}
+
+@media (min-width: 600px) {
+  .cards { grid-template-columns: repeat(3, 1fr); }
+}
+
+.cards>div{
+  background-color: #e8e8e8;
+}
+
+.card>img{
+width:100%
+}
+
+.card{
+  padding: 5%;
+  
+}
+
+.app{
+  background-color:#f1f3f8;
+}
+
+footer{
+  font-family: "Times New Roman", Times, serif;
+  padding: 2%;
+  text-align: center;
+  background-color:#222831 ;
+}
